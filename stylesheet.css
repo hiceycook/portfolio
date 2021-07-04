@@ -39,7 +39,7 @@ header nav ul{
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 25px;
   color:#0093FF;
   text-shadow: none;
   
@@ -131,7 +131,7 @@ border-radius: 20px;
 margin-bottom: 20px;
 box-shadow: 0 0 2px black;
 }
-.work-text{
+.work-text2{
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -150,5 +150,51 @@ color: #d9dcd6;
   margin: 0 auto 100px auto;
 }
 
+.connect a{
+  text-decoration: none;
+}
 
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 980px) {
+  h1{
+    font-size: 40px;
+  }
+  header{
+
+  }
+  .about-me, .work, .connect{
+    margin: 0 auto;
+    width:90%;
+  }
+  .about-me p{
+    font-size: 20px;
+  }
+.me img{
+  width:20%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+  h1{
+    font-size:25px;
+  }
+.about-me p{
+  font-size:15px;
+}
+
+.work-text p, .work-text2 p{
+  font-size: 15px;
+}
+
+.work-text h2, .work-text2 h2{
+  font-size:20px;
+}
+
+.connect h2, .connect h3{
+  font-size: 15px;
+}
+}
