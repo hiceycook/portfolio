@@ -198,3 +198,12 @@ color: #d9dcd6;
   font-size: 15px;
 }
 }
+
+@media screen and (max-width:375px) {
+  .me{
+   flex-direction: column;
+  }
+.me img{
+  margin: 0 auto;
+}
+}
