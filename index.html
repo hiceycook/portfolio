@@ -1,124 +1,90 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hicey Austin Cook</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/b3c16b1218.js" crossorigin="anonymous"></script>
+    <title>Hicey Austin Cook</title>
 </head>
 
 <body>
-    <header>
-        <h1>
-            <a href="#">hicey austin cook</a>
-        </h1>
+
+    <header class="header">
+        <!-- NAVBAR -->
         <nav>
             <ul>
-                <li><a href="#about-me">about me</a></li>
-                <li><a href="#my-work">my work</a></li>
-                <li><a href="#connect">connect</a></li>
+                <li>
+                    <a href="#about-me">About</a>
+                </li>
+                <li>
+                    <a href="#my-work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
+    <!--END NAVBAR-->
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-container">
+            <h2 class="hero-header" class="animate__animated animate__bounce">My name is Hicey Austin Cook </h2>
         </div>
+    </section>
+    <!-- END HERO -->
 
-        <section class="about-me" id="about-me">
-            <h1>
-                about me
-            </h1>
-            <div class="me">
-                <img class="headshot" src="assets/Headshot.jpg" alt="Hicey Austin Cook headshot">
-                <p>
-                    My name is Hicey Austin Cook. I am a 23 year old graduate of Florida State University with a
-                    Bachelor of Science Business Management, along with minors in Biology and Psychology. I have
-                    previous experience as an intern on a cloud-based product team, and I am currently learning
-                    full-stack web development.
-                </p>
-            </div>
+    <!-- ABOUT ME SECTION-->
+    <section class="about-me" id="about-me">
+        <h2>about</h2>
 
-        </section>
+        <div class="about-container">
+            <!-- About me section -->
+            <div class="info-container">
+                <p class="first-p">My name is Hicey Austin Cook. I am currently learning javascript through a full-stack
+                    bootcamp. I am interested in application development and product management.</p>
 
 
-
-
-
-        <section class="work" id="my-work">
-            <h1>
-                my work
-            </h1>
-
-            <div class="runbuddy">
-                <div class="preview">
-                    <a href="https://hiceycook.github.io/run-buddy/" target="_blank">
-                        <img src="assets/run-buddy-img.png" alt=""></a>
-                </div>
-                <div class="work-text">
-                    <h2>
-                        <span class="run">run</span><span class="buddy">buddy</span>
-                    </h2>
-                    <p>
-                        RunBuddy is a landing page for a fictional workout company. This is the first project of my
-                        full-stack web development boot camp.
-                    </p>
+                <div class="resume-button">
+                    <a class="resume-btn" target="blank" href="assets/Resume July 2021 .pdf" download="Resume">
+                        <button href="assets/Resume-June-2021.png" class='download' download="download">Resume</button>
+                    </a>
                 </div>
             </div>
 
-            <div class="horiseon">
-                <div class="preview2">
-                    <a href="https://hiceycook.github.io/Challenge-1-Horiseon-Code-Refactor/" target="_blank">
-                        <img src="assets/horiseon-img.png" alt=""></a>
-                </div>
-                <div class="work-text2">
-                    <h2>
-                        <span class="hori1">hori</span><span class="hori2">seo</span><span class="hori1">n</span>
-                    </h2>
-                    <p>
-                        Horiseon is a code refactoring project as a part of learning best practices in my bootcamp.
-                    </p>
-                </div>
+            <!-- About me picture -->
+            <div class="about-img">
+                <img src="assets/head.png">
             </div>
-            <div class="horiseon">
-                <div class="preview2">
-                    <a href="https://imspires.github.io/fresh-finds/" target="_blank">
-                        <img src="assets/fresh-finds-sc.png" alt=""></a>
-                </div>
-                <div class="work-text2">
-                    <h2>
-                        <span>Fresh Finds</span>
-                    </h2>
-                    <p>
-                        Fresh Finds is a web app that gives the user a chance to select a genre and have a random song
-                        chosen along with a preview.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="connect" id="connect">
-            <h1>
-                connect
-            </h1>
-            <h2>cell</h2>
-            <h3>
-                <a href="tel:5554280940">850.408.3793</a>
-            </h3>
-            <h2>email</h2>
-            <h3>
-                <a href="mailto: hiceycook@gmail.com">hiceycook@gmail.com</a>
-            </h3>
-            <a href="https://github.com/hiceycook" target="_blank"><img src="assets/GitHub-Mark-64px.png"
-                    alt="GitHub Logo"></a>
-            <a href="https://www.linkedin.com/in/hicey-austin-cook/" target="_blank"><img
-                    src="assets/linked+linkedin+logo+social+icon-1320191784782940875_64.png" alt="LinkedIn Logo"></a>
-            <h3>
-                <a href="resume.html">Resume</a>
-            </h3>
-        </section>
+        </div>
+    </section>
 
 
-    </main>
+    <!-- Contact Me Section -->
+    <section class="contact" id="contact">
+        <h2>contact</h2>
+        <div class="contact-container">
+            <h3>Feel free to send me an email at <a href="mailto:hiceycook@gmail.com">hiceycook@gmail.com</h3>
+        </div>
+    </section>
+    <!-- End contact section -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="icons">
+            <a href="https://github.com/hiceycook" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hicey-austin-cook/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/hiiicey/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+
+        </div>
+    </footer>
+    <!-- end Footer -->
 </body>
 
 </html>
