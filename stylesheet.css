@@ -222,12 +222,13 @@ p {
 /* SECTION */
 .skills{
   height:450px;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   align-items: top;
   justify-content: center;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 .skills h1{
   font-size:4.5rem;
@@ -240,7 +241,7 @@ p {
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
   max-width: 75%;
  
@@ -444,13 +445,102 @@ footer p{
 
 
 
+/* LARGE
+SCREEN 
+MEDIA  */
+@media only screen 
+and (min-device-width: 2500px)  {
+
+  header{
+    height:100px;
+  }
+
+.logo a{
+  font-size:2.5rem;
+}
+.nav a {
+  font-size:2.5rem;
+}
+
+.hero{
+  height: 1300px;
+}
+
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  justify-content: center;
+}
+.hero h1{
+  font-size: 13rem;
+}
+.hero-right{
+  display: flex;
+  align-items: center;
+}
+.hero-right img{
+  width:100%;
+}
+
+.about{
+  height:1300px;
+  padding: 0 100px;
+  margin-bottom:200px;
+}
+
+.about-left{
+  display: flex;
+  align-items: center;
+}
+.about-left img{
+  width:100%;
+}
+.about-right{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.about h1{
+  font-size: 10rem;
+}
+
+.about-right p{
+  font-size:2.5rem;
+}
+.resume-btn {
+  width:15rem;
+  height:5rem;
+  font-size: 1.5rem;
+}
+.about-right img{
+  width:15rem;
+}
+.about-span img{
+  width: 100%;
+  height: 100%;
+}
+
+.skills-container i{
+  font-size: 15rem;
+}
+
+
+
+
+}
+
+
+
+
 /* PHONE */
 /* SCREEN */
 /* MEDIA */
   @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 650px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 650px) {
 
     
     * {
@@ -530,6 +620,7 @@ header{
   flex-direction: column;
   justify-content: space-between;
  margin: 0;
+ /* margin-bottom: 20px; */
  padding: 0;
 }
 .about-left{
@@ -606,12 +697,12 @@ p {
   /* SKILLS SECTION */
   .skills{
     height:350px;
-    display: flexbox;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top:5rem;
-    margin-bottom: 0;
+    margin-top:7rem;
+    margin-bottom: 1rem;
   }
   .skills h1{
     font-size:2.5rem;
@@ -657,12 +748,12 @@ p {
   /* WORK SECTION */
   .work{
     height:2250px;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     overflow:inherit;
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
   
   .work-item img{
