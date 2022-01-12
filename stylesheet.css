@@ -486,7 +486,7 @@ and (min-device-width: 2500px)  {
 .about{
   height:1300px;
   padding: 0 100px;
-  margin-bottom:200px;
+  
 }
 
 .about-left{
@@ -508,8 +508,9 @@ and (min-device-width: 2500px)  {
 }
 
 .about-right p{
-  font-size:2.5rem;
+  font-size:3rem;
 }
+
 .resume-btn {
   width:15rem;
   height:5rem;
@@ -526,9 +527,39 @@ and (min-device-width: 2500px)  {
 .skills-container i{
   font-size: 15rem;
 }
+.skills h1{
+  font-size:10rem;
+}
+.skills{
+  height:1000px;
+}
+.work h1{
+  font-size: 10rem;
+}
+.work{
+  height:2000px;
+}
 
+.contact{
+  height:1000px;
+}
+.contact h1{
+  font-size: 10rem;
+}
+.contact p {
+  font-size:3rem;
+}
 
+.social div{
+  height:300px;
+}
+.social div a i{
+ font-size: 12rem;
+}
 
+footer p{
+  font-size: 2rem;
+}
 
 }
 
