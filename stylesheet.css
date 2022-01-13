@@ -585,7 +585,45 @@ and (max-device-width: 1440px) {
   }
 }
 
+/* SMALL-MID
+SCREEN 
+MEDIA */
+@media only screen 
+and (min-device-width: 800px)
+and (max-device-width: 1200px) {
+.hero{
+  height:600px;
+  margin-bottom: 0px;
+}
+.about{
+  height:800px;
+}
+.skills{
+  margin-top:200px;
+}
+.skills-container div{
+margin: .75rem;
+}
+.skills-container{
+  max-width: 80%;
+}
 
+.work{
+  margin-right: 0px;
+  margin: 0px;
+  padding: 0%;
+}
+
+.work-container div{
+ /* padding: 1rem; */
+ margin: 1rem;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+}
 
 
 /* PHONE */
@@ -593,7 +631,7 @@ and (max-device-width: 1440px) {
 /* MEDIA */
   @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 650px) {
+  and (max-device-width: 800px) {
 
     
     * {
