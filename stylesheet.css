@@ -15,6 +15,10 @@
   --quaternary: #2f2e42;
   --background: #12101a;
 }
+.hide img{
+  display: none;
+  visibility: hidden;
+}
 
 .red{
   color:#D03A41;
@@ -457,6 +461,10 @@ and (min-device-width: 1900px)  {
   header{
     height:100px;
   }
+  .hide img{
+    display: none;
+    visibility: hidden;
+  }
 
 .logo a{
   font-size:2.5rem;
@@ -579,6 +587,10 @@ and (max-device-width: 1440px) {
   .hero{
     margin-bottom: 50px;
   }
+  .hide img{
+    display: none;
+    visibility: hidden;
+  }
 
   .skills-container{
     max-width: 85%;
@@ -598,6 +610,11 @@ and (max-device-width: 1200px) {
 .about{
   height:800px;
 }
+.hide img{
+  display: none;
+  visibility: hidden;
+}
+
 .skills{
   margin-top:200px;
 }
@@ -607,6 +624,7 @@ margin: .75rem;
 .skills-container{
   max-width: 80%;
 }
+
 
 .work{
   margin-right: 0px;
@@ -646,6 +664,11 @@ margin: .75rem;
 
     .content{
       margin-top:0px;
+    }
+
+    .hide img{
+      display: none;
+      visibility: hidden;
     }
 
   /* HEADER */
